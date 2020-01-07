@@ -17,9 +17,14 @@ public class LandingPage {
 	
 	
 	By button = By.xpath("//div[@class='product-action']/button");
+	By topdeal = By.xpath("//a[@href='#/offers']");
 	
 	public List<WebElement> getbutton() {
 		return driver.findElements(button);
+	}
+	
+	public WebElement top_deal() {
+		return driver.findElement(topdeal);
 	}
 	
 }
