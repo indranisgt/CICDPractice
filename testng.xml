@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+ <listeners>
+  <listener class-name="mytest.Listener" />
+  </listeners>
   <test thread-count="5" name="Test">
+ 
     <classes>
-     
-       <class name="mytest.TableTest"/>
-        <class name="mytest.FlightTest"/>
-         <class name="mytest.CartTest"/>
+      <class name="mytest.FlightTest"/>
+      <class name="mytest.CartTest"/>
+      <class name="mytest.AppTest"/>
+      <class name="mytest.TableTest"/>
+      <class name="mytest.AutoDropDownTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

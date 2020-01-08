@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="mytest.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="mytest.TableTest">
+        <methods>
+          <include name="close"/>
+          <include name="tabledata"/>
+          <include name="initbrowser1"/>
+        </methods>
+      </class> <!-- mytest.TableTest -->
+      <class name="mytest.AutoDropDownTest">
+        <methods>
+          <include name="auto"/>
+          <include name="initBrowser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- mytest.AutoDropDownTest -->
+      <class name="mytest.CartTest">
+        <methods>
+          <include name="addItem"/>
+          <include name="initbrowser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- mytest.CartTest -->
       <class name="mytest.FlightTest">
         <methods>
+          <include name="close"/>
           <include name="flightBooking"/>
           <include name="initBrowser"/>
         </methods>
       </class> <!-- mytest.FlightTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

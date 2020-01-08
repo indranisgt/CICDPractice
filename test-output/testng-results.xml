@@ -1,21 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12008" started-at="2020-01-07T12:26:43 CST" finished-at="2020-01-07T12:26:55 CST">
+  <suite name="Suite" duration-ms="155085" started-at="2020-01-08T10:59:51 CST" finished-at="2020-01-08T11:02:26 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12008" started-at="2020-01-07T12:26:43 CST" finished-at="2020-01-07T12:26:55 CST">
+    <test name="Test" duration-ms="155085" started-at="2020-01-08T10:59:51 CST" finished-at="2020-01-08T11:02:26 CST">
+      <class name="mytest.CartTest">
+        <test-method status="PASS" signature="initbrowser()[pri:0, instance:mytest.CartTest@1caa0244]" name="initbrowser" is-config="true" duration-ms="10121" started-at="2020-01-08T11:00:06 CST" finished-at="2020-01-08T11:00:16 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initbrowser -->
+        <test-method status="PASS" signature="addItem()[pri:0, instance:mytest.CartTest@1caa0244]" name="addItem" duration-ms="1264" started-at="2020-01-08T11:02:20 CST" finished-at="2020-01-08T11:02:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItem -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mytest.CartTest@1caa0244]" name="close" is-config="true" duration-ms="707" started-at="2020-01-08T11:02:24 CST" finished-at="2020-01-08T11:02:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mytest.CartTest -->
       <class name="mytest.AutoDropDownTest">
-        <test-method status="PASS" signature="initBrowser()[pri:0, instance:mytest.AutoDropDownTest@5e853265]" name="initBrowser" is-config="true" duration-ms="11361" started-at="2020-01-07T12:26:43 CST" finished-at="2020-01-07T12:26:55 CST">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:mytest.AutoDropDownTest@7ce69770]" name="initBrowser" is-config="true" duration-ms="14578" started-at="2020-01-08T10:59:51 CST" finished-at="2020-01-08T11:00:06 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="auto()[pri:0, instance:mytest.AutoDropDownTest@5e853265]" name="auto" duration-ms="598" started-at="2020-01-07T12:26:55 CST" finished-at="2020-01-07T12:26:55 CST">
+        <test-method status="PASS" signature="auto()[pri:0, instance:mytest.AutoDropDownTest@7ce69770]" name="auto" duration-ms="1484" started-at="2020-01-08T11:02:22 CST" finished-at="2020-01-08T11:02:23 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- auto -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mytest.AutoDropDownTest@7ce69770]" name="close" is-config="true" duration-ms="834" started-at="2020-01-08T11:02:23 CST" finished-at="2020-01-08T11:02:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- mytest.AutoDropDownTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="mytest.FlightTest">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:mytest.FlightTest@cecf639]" name="initBrowser" is-config="true" duration-ms="28639" started-at="2020-01-08T11:00:16 CST" finished-at="2020-01-08T11:00:44 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:mytest.FlightTest@cecf639]" name="flightBooking" duration-ms="67150" started-at="2020-01-08T11:01:08 CST" finished-at="2020-01-08T11:02:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mytest.FlightTest@cecf639]" name="close" is-config="true" duration-ms="671" started-at="2020-01-08T11:02:25 CST" finished-at="2020-01-08T11:02:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mytest.FlightTest -->
+      <class name="mytest.TableTest">
+        <test-method status="PASS" signature="initbrowser1()[pri:0, instance:mytest.TableTest@7ce026d3]" name="initbrowser1" is-config="true" duration-ms="23154" started-at="2020-01-08T11:00:44 CST" finished-at="2020-01-08T11:01:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initbrowser1 -->
+        <test-method status="PASS" signature="tabledata()[pri:0, instance:mytest.TableTest@7ce026d3]" name="tabledata" duration-ms="5611" started-at="2020-01-08T11:02:15 CST" finished-at="2020-01-08T11:02:20 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabledata -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mytest.TableTest@7ce026d3]" name="close" is-config="true" duration-ms="734" started-at="2020-01-08T11:02:25 CST" finished-at="2020-01-08T11:02:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mytest.TableTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
